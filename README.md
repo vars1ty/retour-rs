@@ -45,7 +45,8 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-retour = "0.2"
+# `static-detour` feature requires nightly
+retour = { version = "0.3", features = ["static-detour"] }
 ```
 
 ## Example
@@ -97,7 +98,12 @@ fn main() -> Result<(), Box<dyn Error>> {
 
 - A Windows API hooking example is available [here](./examples/messageboxw_detour.rs); build it by running:
 ```
-$ cargo build --features="static-detour" --example messageboxw_detour
+$ cargo +nightly build --features="static-detour" --example messageboxw_detour
+```
+
+- A non-nightly example using GenericDetour can be found [here](./examples/kernel32_detour.rs); build it by running:
+```
+$ cargo build --example kernel32_detour
 ```
 
 ## Mentions
