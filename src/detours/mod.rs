@@ -7,9 +7,9 @@ pub use self::generic::*;
 pub use self::raw::*;
 
 cfg_if! {
-    if #[cfg(feature = "nightly")] {
+    if #[cfg(feature = "static-detour")] {
+        #[cfg_attr(docsrs, doc(cfg(feature = "static-detour")))]
         mod statik;
         pub use self::statik::*;
-    } else {
     }
 }

@@ -1,11 +1,16 @@
 #![recursion_limit = "1024"]
+#![cfg_attr(docsrs, feature(doc_cfg))]
 #![cfg_attr(
-  feature = "nightly",
-  feature(unboxed_closures, abi_thiscall, tuple_trait)
+  feature = "static-detour",
+  feature(unboxed_closures, tuple_trait)
 )]
 #![cfg_attr(
-  all(feature = "nightly", test),
-  feature(naked_functions, core_intrinsics)
+  all(feature = "static-detour", test),
+  feature(naked_functions)
+)]
+#![cfg_attr(
+  feature = "thiscall-abi",
+  feature(abi_thiscall)
 )]
 
 //! A cross-platform detour library written in Rust.
@@ -45,9 +50,11 @@
 //!
 //! ## Features
 //!
-//! - **nightly**: Enabled by default. Required for static detours, due to usage
-//!   of *const_fn* & *unboxed_closures*.   The feature also enables a more
-//!   extensive test suite.
+//! - **static-detour**: Required for static detours, due to usage
+//!   of *unboxed_closures* and *tuple_trait*. The feature also enables a more
+//!   extensive test suite. *Requires nightly compiler*
+//! - **thiscall-abi**: Required for hooking functions that use the "thiscall" ABI, which is 
+//!   nightly only. *Requires nightly compiler*
 //!
 //! ## Platforms
 //!
