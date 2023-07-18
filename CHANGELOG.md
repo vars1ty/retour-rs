@@ -5,13 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## 0.3.1 (2023-07-18)
 
 ### Commit Statistics
 
 <csr-read-only-do-not-edit/>
 
- - 4 commits contributed to the release over the course of 41 calendar days.
+ - 5 commits contributed to the release over the course of 41 calendar days.
  - 41 days passed between releases.
  - 0 commits were understood as [conventional](https://www.conventionalcommits.org).
  - 4 unique issues were worked on: [#24](https://github.com/Hpmason/retour-rs/issues/24), [#26](https://github.com/Hpmason/retour-rs/issues/26), [#30](https://github.com/Hpmason/retour-rs/issues/30), [#31](https://github.com/Hpmason/retour-rs/issues/31)
@@ -30,9 +30,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Use slice-pool2 ([`629399a`](https://github.com/Hpmason/retour-rs/commit/629399a0e853adf774ba116e0a1d9f0af941ede9))
  * **[#31](https://github.com/Hpmason/retour-rs/issues/31)**
     - Fix import static detour ([`ad33b38`](https://github.com/Hpmason/retour-rs/commit/ad33b38a40f4fa9cf5562f60b3b28126b5547823))
+ * **Uncategorized**
+    - Add changelog ([`c977a43`](https://github.com/Hpmason/retour-rs/commit/c977a438da96485c51f236fb370fa19a6f67bb95))
 </details>
 
 ## v0.3.0 (2023-06-06)
+
+<csr-id-e180448c80855dc533edcbc62390be2e3106294b/>
 
 ### Chore
 
@@ -65,6 +69,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 </details>
 
 ## v0.2.0 (2023-05-23)
+
+<csr-id-19db76b1f3c6a1889d8e5bb781ee920512f06250/>
+<csr-id-0bc9dcc8672899ddfde083100f4707603d29000c/>
+<csr-id-2963f60705e87edda310f547cd4f3d742b3432fd/>
 
 ### Chore
 
@@ -114,6 +122,45 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 </details>
 
 ## v0.1.0 (2023-02-15)
+
+<csr-id-07b346570c69736a57a25212d7121309711ee50b/>
+<csr-id-5808bed377134c7f5d7f7f45ea10154d6b06dab5/>
+<csr-id-6af8b287e7215d5226eede7cb623e9841afcc550/>
+<csr-id-aeadc0032eb1631bedd40476b6211fd41207375a/>
+<csr-id-1aa9cc8b795abcb4b0028ff2ed5cef29e8c21a17/>
+<csr-id-f792981ebb34228d34b444e5a4d736d18aa0fdf5/>
+<csr-id-b840d9eef1260959764f00b7161fa8aa33a3c095/>
+<csr-id-d651621f2c2767f0dd52690298bbe9453f4ac8e5/>
+<csr-id-28c0fdeff412f04f4dc398bd9c1ecab98f7dbc29/>
+<csr-id-3f7f55b189144086d95fc72de4aa3347e7aa6e3b/>
+<csr-id-23c7fb478c8312da6609ec5b81a83b214a5db8d7/>
+<csr-id-c41834bca87889591093a987683e0768f343c6fd/>
+<csr-id-4de8f01736147cd28bc0ce4c69a397773975aa99/>
+<csr-id-53997fa75416c06cc5baebde59cc046da0d84f51/>
+<csr-id-7ff857d5d8cf1e02d11552df03070ef130589ebf/>
+<csr-id-bfa4c4100ffd21d0b276ace23e11b88616fe1f57/>
+<csr-id-4dc337ddc2d505adae55d0a666ab77b122f608b9/>
+<csr-id-5cd38b50f05827ca42990717ac34eade8c3457ee/>
+<csr-id-70931eec858b83ff41df79a7f63e1bc496364575/>
+<csr-id-f9a24d61af4313f5003def3661da8798f02f1666/>
+<csr-id-b8170fff2ae6f3f5e5b3c66d5ea010e70feecbf2/>
+<csr-id-e5124e13a79de218b6c2320d935da135f09da3ed/>
+<csr-id-073e0e740941cc76cd0279697bfa53ae0d7bdc93/>
+<csr-id-693abce46d859e8adfb287542531fa081fe029b1/>
+<csr-id-80cd96f83f3936a77a411b24b8a08d8c8623b9a8/>
+<csr-id-dd8dbd04a180c90a2861c9eea3b15d6b412695b4/>
+<csr-id-9a9c14348a5692ea241d50ac6c069f8a67c3f041/>
+<csr-id-24f2ce11dbc65e4807f969cbd0c889531d89e067/>
+<csr-id-f7d34c80ed909bd833cf3aeec62bf3a7c0e85512/>
+<csr-id-873270f654469e8c9dbe801b2795745261d072ab/>
+<csr-id-7d20fc09c11a91e50b042dcd44db2c4d0ebdd676/>
+<csr-id-df1764b6f5efda3a25b71935bd929e0b2e79dfba/>
+<csr-id-ae44d79f9179cb858272024ea2d19f929e1920f7/>
+<csr-id-9c7dcb0cbbd98c39f195b18e968fc34258d6fbfe/>
+<csr-id-ab9f22aab30f35b49f77b84ff0d43c48757e5f53/>
+<csr-id-46cda1077ad0f97886a421bc1e8483000b5c0e78/>
+<csr-id-7d80778ebd38af65d5abf7a27983fe796d9430fa/>
+<csr-id-927ab0a87528b4fc381c71dd8b587b8ebda726b9/>
 
 ### Chore
 
@@ -195,6 +242,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Bug Fixes
 
+<csr-id-8eedeba920eebc771e832ba9d10643ff78210d02/>
+<csr-id-d11d7299a44b196c5353fdbdd8302d5e7b3fb503/>
+<csr-id-958166199c544d28b70344e6abd261270ac0e8df/>
+<csr-id-ff374474f362e4b915aea02a04716c23e922af1c/>
+<csr-id-46ed445083097be6277805222c1f4d6593e1f940/>
+<csr-id-0c7e273b18fec764c8c1bfaa30d0e35fcc643b77/>
+<csr-id-a0b23c2a68f6f5dc4d617f8262962a0521218bd2/>
+<csr-id-4224d1a9e8e2f9d454a9cf65cc98a3c80260b65c/>
+<csr-id-ff4e54958e0c92ea1720e7f0dd2516068a87b486/>
+
  - <csr-id-5bdab402e69b43bebf4ff0c793ce06845b1359f0/> replace deprecated features
  - <csr-id-6c1d92cd50bc082ca4607c6983c598206ddc1b63/> remove deprecated '--all' flag
  - <csr-id-ee9f8205150d0f9a82b591e810a6c249f0b1bf6d/> 32-bit range calculation overflow
@@ -220,15 +277,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - <csr-id-87fec81e73ee7fc2d7367216b9be596487139d55/> scoping issue with 1.26 nightly
  - <csr-id-5d708e960da12239f66a618e127c3e234acec04c/> use wrapping_add in handle_relative_branch
    * displacement can be negative in some cases
- - <csr-id-8eedeba920eebc771e832ba9d10643ff78210d02/> static_detours macro parse meta attributes #4
- - <csr-id-d11d7299a44b196c5353fdbdd8302d5e7b3fb503/> generate 'call' method for unsafe types
- - <csr-id-958166199c544d28b70344e6abd261270ac0e8df/> use features for latest nightly
- - <csr-id-ff374474f362e4b915aea02a04716c23e922af1c/> warning on 32-bit
- - <csr-id-46ed445083097be6277805222c1f4d6593e1f940/> use volatile cell to prevent inlining
- - <csr-id-0c7e273b18fec764c8c1bfaa30d0e35fcc643b77/> use mmap-fixed from crates.io
- - <csr-id-a0b23c2a68f6f5dc4d617f8262962a0521218bd2/> detour local functions
- - <csr-id-4224d1a9e8e2f9d454a9cf65cc98a3c80260b65c/> add unreachable message
- - <csr-id-ff4e54958e0c92ea1720e7f0dd2516068a87b486/> tests in release mode
 
 ### Refactor
 
@@ -404,4 +452,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Add mutex for unique access ([`0b5fd5f`](https://github.com/Hpmason/retour-rs/commit/0b5fd5fdc47313ca92828a0fa1a13a13d6956127))
     - Initial commit ([`668c73c`](https://github.com/Hpmason/retour-rs/commit/668c73c2ff32e3184ed18aefe967122a399e08a0))
 </details>
+
+<csr-unknown>
+ static_detours macro parse meta attributes #4 generate ‘call’ method for unsafe types use features for latest nightly warning on 32-bit use volatile cell to prevent inlining use mmap-fixed from crates.io detour local functions add unreachable message tests in release mode<csr-unknown/>
 
