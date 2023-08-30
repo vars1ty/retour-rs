@@ -54,7 +54,7 @@ name = "kernel32_detour"
 crate-type = ["cdylib"]
 
 [target."cfg(any(target_arch = \"x86\", target_arch = \"x86_64\"))".dependencies]
-udis = { package = "libudis86-sys", version = "0.2.1" }
+udis = { package = "libudis86-sys", git = "https://github.com/vars1ty/libudis86-sys.git" }
 
 [target."cfg(windows)".dev-dependencies.windows]
 version = "0.48"
