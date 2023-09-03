@@ -21,7 +21,7 @@ jobs:
       run: sudo apt-get update && sudo apt-get install gcc-multilib
     
     - name: Cargo Check - All Features
-      run: ${{ matrix.target.rustflags }} cargo +nightly check --all-features
+      run: cargo +nightly check --all-features
     
     - name: Cargo Tests - Nightly
-      run: ${{ matrix.target.rustflags }} cargo +nightly test --all-features
+      run: cargo +nightly test --all-features
